@@ -1,0 +1,6 @@
+# Translations
+*.mo
+
+virtual
+app.db
+microblog.log*
