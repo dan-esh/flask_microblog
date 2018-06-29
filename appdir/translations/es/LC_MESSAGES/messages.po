@@ -1,0 +1,271 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-06-27 23:12+1200\n"
+"PO-Revision-Date: 2017-09-29 23:25-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: appdir/__init__.py:20
+msgid "Please log in to access this page."
+msgstr "Por favor ingrese para acceder a esta página."
+
+#: appdir/email.py:21
+msgid "[Microblog] Reset Your Password"
+msgstr "[Microblog] Nueva Contraseña"
+
+#: appdir/forms.py:12 appdir/forms.py:19 appdir/forms.py:52
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: appdir/forms.py:13 appdir/forms.py:21 appdir/forms.py:44
+msgid "Password"
+msgstr "Contraseña"
+
+#: appdir/forms.py:14
+msgid "Remember Me"
+msgstr "Recordarme"
+
+#: appdir/forms.py:15 appdir/routes.py:63 appdir/templates/login.html:5
+msgid "Sign In"
+msgstr "Ingresar"
+
+#: appdir/forms.py:20 appdir/forms.py:39
+msgid "Email"
+msgstr "Email"
+
+#: appdir/forms.py:23 appdir/forms.py:46
+msgid "Repeat Password"
+msgstr "Repetir Contraseña"
+
+#: appdir/forms.py:25 appdir/routes.py:82 appdir/templates/register.html:5
+msgid "Register"
+msgstr "Registrarse"
+
+#: appdir/forms.py:30 appdir/forms.py:65
+msgid "Please use a different username."
+msgstr "Por favor use un nombre de usuario diferente."
+
+#: appdir/forms.py:35
+msgid "Please use a different email address."
+msgstr "Por favor use una dirección de email diferente."
+
+#: appdir/forms.py:40 appdir/forms.py:48
+msgid "Request Password Reset"
+msgstr "Pedir una nueva contraseña"
+
+#: appdir/forms.py:53
+msgid "About me"
+msgstr "Acerca de mí"
+
+#: appdir/forms.py:55 appdir/forms.py:70
+msgid "Submit"
+msgstr "Enviar"
+
+#: appdir/forms.py:69
+msgid "Say something"
+msgstr "Dí algo"
+
+#: appdir/routes.py:35
+msgid "Your post is now live!"
+msgstr "¡Tu artículo ha sido publicado!"
+
+#: appdir/routes.py:44 appdir/templates/base.html:21
+msgid "Home"
+msgstr "Inicio"
+
+#: appdir/routes.py:56
+msgid "Invalid username or password"
+msgstr "Nombre de usuario o contraseña inválidos"
+
+#: appdir/routes.py:80
+msgid "Congratulations, you are now a registered user!"
+msgstr "¡Felicitaciones, ya eres un usuario registrado!"
+
+#: appdir/routes.py:106
+msgid "Your changes have been saved."
+msgstr "Tus cambios han sido salvados."
+
+#: appdir/routes.py:111 appdir/templates/edit_profile.html:6
+msgid "Edit Profile"
+msgstr "Editar Perfil"
+
+#: appdir/routes.py:119 appdir/routes.py:134
+#, python-format
+msgid "User %(username)s not found."
+msgstr "El usuario %(username)s no ha sido encontrado."
+
+#: appdir/routes.py:122
+msgid "You cannot follow yourself!"
+msgstr "¡No te puedes seguir a tí mismo!"
+
+#: appdir/routes.py:126
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "¡Ahora estás siguiendo a %(username)s!"
+
+#: appdir/routes.py:137
+msgid "You cannot unfollow yourself!"
+msgstr "¡No te puedes dejar de seguir a tí mismo!"
+
+#: appdir/routes.py:141
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "No estás siguiendo a %(username)s."
+
+#: appdir/routes.py:154 appdir/templates/base.html:22
+msgid "Explore"
+msgstr "Explorar"
+
+#: appdir/routes.py:166
+msgid "Check your email for the instructions to reset your password"
+msgstr "Busca en tu email las instrucciones para crear una nueva contraseña"
+
+#: appdir/routes.py:169 appdir/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Nueva Contraseña"
+
+#: appdir/routes.py:182
+msgid "Your password has been reset."
+msgstr "Tu contraseña ha sido cambiada."
+
+#: appdir/translate.py:9
+msgid "Error: the translation service is not configured."
+msgstr ""
+
+#: appdir/translate.py:16
+msgid "Error: the translation service failed."
+msgstr ""
+
+#: appdir/templates/404.html:4
+msgid "Not Found"
+msgstr "Página No Encontrada"
+
+#: appdir/templates/404.html:5 appdir/templates/500.html:6
+msgid "Back"
+msgstr "Atrás"
+
+#: appdir/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Ha ocurrido un error inesperado"
+
+#: appdir/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "El administrador ha sido notificado. ¡Lamentamos la inconveniencia!"
+
+#: appdir/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s dijo %(when)s"
+
+#: appdir/templates/_post.html:25
+msgid "Translate"
+msgstr ""
+
+#: appdir/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "Bienvenido a Microblog"
+
+#: appdir/templates/base.html:26
+msgid "Login"
+msgstr "Ingresar"
+
+#: appdir/templates/base.html:28
+msgid "Profile"
+msgstr "Perfil"
+
+#: appdir/templates/base.html:29
+msgid "Logout"
+msgstr "Salir"
+
+#: appdir/templates/base.html:66
+msgid "Error: Could not contact server."
+msgstr ""
+
+#: appdir/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "¡Hola, %(username)s!"
+
+#: appdir/templates/index.html:17 appdir/templates/user.html:31
+msgid "Newer posts"
+msgstr "Artículos siguientes"
+
+#: appdir/templates/index.html:22 appdir/templates/user.html:36
+msgid "Older posts"
+msgstr "Artículos previos"
+
+#: appdir/templates/login.html:12
+msgid "New User?"
+msgstr "¿Usuario Nuevo?"
+
+#: appdir/templates/login.html:12
+msgid "Click to Register!"
+msgstr "¡Haz click aquí para registrarte!"
+
+#: appdir/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr "¿Te olvidaste tu contraseña?"
+
+#: appdir/templates/login.html:15
+msgid "Click to Reset It"
+msgstr "Haz click aquí para pedir una nueva"
+
+#: appdir/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Nueva Contraseña"
+
+#: appdir/templates/user.html:8
+msgid "User"
+msgstr "Usuario"
+
+#: appdir/templates/user.html:11
+msgid "Last seen on"
+msgstr "Última visita"
+
+#: appdir/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d seguidores"
+
+#: appdir/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "siguiendo a %(count)d"
+
+#: appdir/templates/user.html:15
+msgid "Edit your profile"
+msgstr "Editar tu perfil"
+
+#: appdir/templates/user.html:17
+msgid "Follow"
+msgstr "Seguir"
+
+#: appdir/templates/user.html:19
+msgid "Unfollow"
+msgstr "Dejar de seguir"
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "Search Results"
+#~ msgstr "Resultados de Búsqueda"
+
+#~ msgid "Previous results"
+#~ msgstr "Resultados previos"
+
+#~ msgid "Next results"
+#~ msgstr "Resultados próximos"
+
